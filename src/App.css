@@ -1,4 +1,4 @@
-.App {
+/* .App {
   text-align: center;
 }
 
@@ -58,4 +58,77 @@
   font-size: 24px;
   border-radius: 10px;
   font-weight: bold;
+} */
+
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.Movie-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px;
+}
+
+.Movie-wrapper {
+  background-color: #faebd7;
+  color: #000;
+  width: 220px;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.Movie-title {
+  font-weight: 700;
+  height: 60px;
+  font-size: 18px;
+}
+
+.Movie-date {
+  font-style: italic;
+  margin-top: 10px;
+}
+
+.Movie-rate {
+  color: red;
+  font-size: 1.2em;
+  font-weight: 700;
+  margin-top: 10px;
+  text-decoration: underline;
+}
+
+.Movie-search {
+  height: 40px;
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 10px;
+  font-weight: bold;
+  width: 100%;
+  max-width: 600px;
+}
+
+/* Tambahkan style berikut untuk memposisikan gambar secara tepat */
+.Movie-image {
+  width: 100%;
+  height: 300px; /* Sesuaikan ukuran gambar yang diinginkan */
+  object-fit: cover;
+  border-radius: 10px;
 }
